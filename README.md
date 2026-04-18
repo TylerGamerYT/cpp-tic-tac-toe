@@ -1,16 +1,26 @@
-# 🕹️ C++ Tic Tac Toe (i guess)
+# 🕹️ C++ Tic Tac Toe (i guess lol)
 
-A full-featured Tic Tac Toe game built in C++.
+Simple C++ Tic Tac Toe game with AI, scoreboard, and menu system.
 
-## Features
-- Player vs Player
-- Score tracking
-- File saving system
-- Clean modular structure
-- Input validation
+## 🚀 Features
+- PvP mode
+- AI mode (unbeatable)
+- Score saving (file)
+- Clean C++ structure
 
-## Build
+## ⚙️ Build & Run
+make
+make run
+make clean
 
-```bash
-g++ src/*.cpp -o ttt
-./ttt
+## 🎮 How to play
+Pick 1–9 to place X or O on the board.
+
+## 🤖 AI
+Uses Minimax (never loses).
+
+## 📁 Score file
+data/scores.txt
+
+## 🧠 Built with
+C++, OOP, file handling
